@@ -1,0 +1,65 @@
+/* ----- HEADER ----- */
+
+.header {
+    width: 100%;
+    float: left;
+    padding: 3% 4%;
+}
+
+.logo {
+    width: 56px;
+    height: 56px;
+    float: left;
+    background: url(../images/logo-mobile.png) center center/56px no-repeat;
+    font-size: 0;
+}
+
+.btn-menu {
+    width: 56px;
+    height: 56px;
+    float: right;
+    text-align: center;
+    color: #FFF;
+    border-radius: 56px;
+    cursor: pointer;
+    background: linear-gradient(to right, #CE2E3C, #DA6709);
+}
+
+/* ----- MENU ----- */
+
+.menu {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: #000000E6;
+    top: 0;
+    left: 0;
+}
+
+.btn-close {
+    font-size: 3em;
+    color: #FFF;
+    float: right;
+    cursor: pointer;
+}
+
+.menu ul {
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+.menu li {
+    padding: 1.5%;
+}
+
+.menu li a {
+    font-size: 2em;
+    color: #FFF;
+    padding: 1.5% 3%;
+}
+
+.menu li a:hover{
+    border: 1px solid #DA6709;
+}
