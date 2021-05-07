@@ -38,10 +38,11 @@
 }
 
 .btn-close {
-    font-size: 3em;
+    font-size: 1.5em;
     color: #FFF;
     float: right;
     cursor: pointer;
+    margin: 2% 3% 0 0;
 }
 
 .menu ul {
@@ -62,4 +63,55 @@
 
 .menu li a:hover{
     border: 1px solid #DA6709;
+}
+
+/* ----- BANNER ----- */
+
+.banner {
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding: 3% 4%;
+    background: url(../images/bg.jpg) no-repeat fixed;
+}
+
+.title {
+    width: 100%;
+}
+
+.title h2 {
+    font-size: 2.5em;
+    color: #FFF;
+    font-weight: 700;
+}
+
+.title h3 {
+    font-size: 1.5em;
+    color: #FFF;
+}
+
+.buttons {
+    width: 100%;
+    margin-top: 2%;
+}
+
+.buttons i {
+    float: right;
+}
+
+.btn-cadastrar, .btn-sobre {
+    width: 100%;
+    font-size: 1.5em;
+    text-align: left;
+    cursor: pointer;
+    padding: 5%;
+    border-radius: 10px;
+    background-color: #FFF;
+    color: #130400;
+}
+
+.btn-sobre {
+    background-color: #130400;
+    color: #FFF;
+    margin-top: 2%;
 }
