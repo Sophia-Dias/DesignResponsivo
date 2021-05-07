@@ -200,3 +200,32 @@
     cursor: pointer;
     margin-top: 2%;
 }
+
+/* ----- FOOTER ----- */
+
+.footer {
+    width: 100%;
+    float: left;
+    padding: 3% 4%;
+    text-align: center;
+    background: linear-gradient(to right, #CE2E3C, #DA6709);
+}
+
+.social-icons a {
+    font-size: 1.5em;
+    color: #FFFFFFB3;
+    margin-right: 3%;
+}
+
+.social-icons a:last-child{
+    margin-right: 0;
+}
+
+.social-icons a:hover {
+    color: #FFF;
+}
+
+.copyright {
+    margin-top: 2%;
+    color: #FFFFFFB3;
+}
